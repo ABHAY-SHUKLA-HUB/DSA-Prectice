@@ -1,10 +1,8 @@
 #include <iostream>
 using namespace std;
-
 int main() {
     double number1, number2;
     char op;
-
     cin >> number1 >> op >> number2;
     if (op == '+') {
         cout << number1 + number2 << endl;
