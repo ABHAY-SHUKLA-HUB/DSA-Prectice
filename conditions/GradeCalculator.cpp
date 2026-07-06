@@ -5,7 +5,10 @@ int main(){
     cout<<"Input Marks: ";
     cin>>n;
 
-    if(n<=100 && n>=90){
+    if(n < 0 || n > 100){
+    cout << "Invalid Marks";
+    }
+    else if(n<=100 && n>=90){
         cout<<"A";
     }
     else if(n<=89 && n>=80){
