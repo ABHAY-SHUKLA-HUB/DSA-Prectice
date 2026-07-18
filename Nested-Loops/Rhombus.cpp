@@ -4,14 +4,13 @@ int main(){
     int n;
     cin>>n;
     for(int i=1;i<=n;i++){
+        for(int j=1;j<=n-i;j++){
+            cout<<" ";
+        }
         for(int j=1;j<=n;j++){
-            if((i*j)==3*j||(i*j)==3*i){
-                cout<<"*";
-            }
-            else{
-                cout<<" ";
-            }
+            cout<<"* ";
         }
         cout<<endl;
     }
+    return 0;
 }
