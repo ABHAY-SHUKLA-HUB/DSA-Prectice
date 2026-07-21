@@ -96,11 +96,13 @@ Each solution includes:
 
 ## 📊 Progress
 
-| Topic               | Status         |
-| ------------------- | -------------- |
+| Topic               | Status          |
+| ------------------- | --------------  |
 | Basics              | ✅ Completed    |
-| Loops               | 🚧 In Progress |
-| Functions           | ⏳ Coming Soon  |
+| Loops               | ✅ Completed    |
+| Functions           | ✅ Completed    |
+| Nested Loops        | ✅ Completed    |
+| Pointers            | ⏳coming soon   |
 | Arrays              | ⏳ Coming Soon  |
 | Strings             | ⏳ Coming Soon  |
 | Recursion           | ⏳ Coming Soon  |
